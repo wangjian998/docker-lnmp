@@ -295,7 +295,7 @@ services:
       context: ./php81
       args:
         - EXT_GD=true
-        - EXT_REDIS=true
+        - EXT_REDIS=false
         - EXT_GRPC=false
         - EXT_PROTOBUF=false
         - EXT_MEMCACHED=false
